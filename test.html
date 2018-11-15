@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style type="text/css" media="screen">
+		html{
+			font-size: 62.5%
+			font:normal 100% "微软雅黑";
+		}
+		* {
+			padding: 0px;
+			margin: 0px;
+			}
+		.image-box{
+			width: 80%;
+			height: 300px;
+			margin: 50px auto;
+		}
+		.image-box ul{
+			width: 100%; 
+			height: 300px;
+		}
+		.image-box li{
+			position:relative;
+			width: 30%;
+			height: 300px;
+			margin: 0 10%;
+			list-style: none;
+			float: left;
+		}	
+		.image-box li a{
+			width: 100%;
+			height: 300px;
+			text-decoration: none;
+		}
+		.image-box li a img{
+			width:100%;
+			height: 300px;
+		}
+		.image-box li a span{
+			display: none;
+		}
+		.image-box li a:hover span{
+			width: 100%;
+			height: 300px;
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			background: #000;
+			font-size: 5em;
+			line-height: 300px;
+			text-align: center;
+			color: #FFFFFF;
+			opacity: 0.6;
+		}
+	</style>
+</head>
+<body>
+	<div class="image-box">
+	<ul>
+		<li>
+			<a href="#"><img src="./img/1.jpg" alt="杨枝甘露">
+			<span>杨枝甘露</span></a>
+		</li>
+		<li>
+			<a href="#"><img src="./img/2.jpg" alt="港式双皮奶">
+			<span>港式双皮奶</span></a>
+		</li>
+	<ul>
+</div>
+</body>
+</html>
